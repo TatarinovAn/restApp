@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 public class AuthorizationController {
-    final private AuthorizationService service;
+    AuthorizationService service;
 
     public AuthorizationController(AuthorizationService service) {
         this.service = service;
