@@ -8,7 +8,7 @@ import ru.netology.restapp.repository.UserRepository;
 import java.util.List;
 
 public class AuthorizationService {
-    UserRepository userRepository;
+    private final UserRepository userRepository;
 
     public AuthorizationService(UserRepository userRepository) {
         this.userRepository = userRepository;
